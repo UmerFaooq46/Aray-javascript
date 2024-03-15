@@ -53,6 +53,68 @@
 //     '06) MS - Master of Science',
 //     '07) M. Phil. - Master of Philosophy',
 //     '08) PhD - Doctor of Philosophy'
+
+// ======================questions08==================================
+
+// function calculatePercentage(score, totalMarks) {
+//     return (score / totalMarks) * 100;
+// }
+
+// var studentNames = ["Fahad", "Omer", "Areeb"];
+
+// var studentScores = [420, 380, 450]; 
+
+// const totalMarks = 500;
+
+// for (var i = 0; i < studentNames.length; i++) {
+//     var percentage = calculatePercentage(studentScores[i], totalMarks);
+//     document.writeln(`<br>${studentNames[i]} scored ${studentScores[i]} out of ${totalMarks}, which is ${percentage}%`);
+// }
+
+// ======================questions10==================================
+
+// var studentScores = [90, 85, 70, 95, 80];
+
+// document.writeln("Original array:", studentScores);
+
+// studentScores.sort(function(a, b) {
+//     return a - b; 
+// });
+
+// document.writeln("<br>Sorted array:", studentScores);
+
+// ======================questions11==================================
+
+// const cities = ['New York', 'London', 'Paris', 'Tokyo', 'Sydney'];
+
+// const selectedCities = [];
+
+// for (let i = 0; i < 3; i++) {
+//     if (i < cities.length) {
+//         selectedCities.push(cities[i]);
+//     } else {
+//         break; 
+//     }
+// }
+// document.writeln("Selected Cities:", selectedCities);
+
+// ======================questions14==================================
+
+// var stack = [];
+
+// stack.push("out");
+// stack.push("monitor");
+// stack.push("out");
+// stack.push("printer");
+// stack.push("out");
+// stack.push("mouse");
+// stack.push("keyboard");
+
+// while (stack.length > 0) {
+//     var value = stack.pop();
+//     console.log(value); 
+// }
+
 // ]; 
 
 // for (var i = 0; i < qualifications.length; i++) {
